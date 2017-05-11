@@ -73,7 +73,7 @@
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
 	<div class="container">
 		<div class="row">
-			<div class="site-navigation-inner col-xs-2 col-sm-2 col-md-2 col-lg-3">
+			<div class="site-navigation-inner col-xs-12 col-sm-2 col-md-2 col-lg-3">
 				<div class="navbar navbar-default">
 					<div class="navbar-header">
 						<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->

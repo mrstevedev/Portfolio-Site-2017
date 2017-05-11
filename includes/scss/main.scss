@@ -214,22 +214,28 @@ ul#main-menu{
   display: inline-flex;
 }
 
+#about-text h1{
+  font-size: 56px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 0;
+}
+
 @media(max-width: 486px){
 
-  .desc-top{
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
   .main-content-inner h1 {
-    font-size: 23px!important;
+    font-size: 21px!important;
   }
   .main-content-inner h2 {
-    font-size: 34px!important;
+    font-size: 21px!important;
   }
 
-  .specialize-desc{
-    display: none;
+  #about-text h1{
+    font-size: 60px!important;
+  }
+
+  .description, .subtext {
+    font-size: 18px;
   }
 }
 
@@ -264,7 +270,7 @@ ul#main-menu{
   font-family: 'latoblack';
 }
 
-.main-content-inner h1{
+.home .main-content-inner h1{
   font-size:33px!important;
 }
 
@@ -299,8 +305,8 @@ ul#main-menu{
   border-bottom: solid 1px #d9e2e7;
 }
 
-.main-content .container, 
-.main-content .main-content-inner{
+.page-child .main-content .container, 
+.page-child .main-content .main-content-inner{
   padding:0
 }
 
@@ -326,16 +332,10 @@ ul#main-menu{
   margin: 100px 0 0 0px;
 }
 
-#about-text h1{
-  font-size: 60px!important;
-  text-transform: uppercase;
-  text-align: left;
-  margin-top: 0;
-}
 
 .subtext{
   color: #254a60;
-  font-size: 20px;
+  font-size: 18px;
   font-family: latoblack;
   text-align: left;
   line-height: 28px;
@@ -486,19 +486,18 @@ div.wpforms-container-full {
 
 @media screen and (max-width:768px){
     .main-content-inner h1{
-        font-size: 26px!important;
+      font-size: 80px!important;
     }
     .main-content-inner h2{
-        font-size: 24px!important;
+      font-size: 24px!important;
     }
     span.hilite:nth-child(2){
-        line-height:12px!important;
+      line-height:12px!important;
     }
 
-.site-navigation{
-  display: flex;
-  align-items: center;
-}
+    .specialize-desc{
+       display: none;
+    }
 
 .social{
   display:none;
@@ -510,9 +509,9 @@ div.wpforms-container-full {
   }
 }
 
-.site-navigation{
-  width:0;
-}
+// .site-navigation{
+//   width:0;
+// }
 
 div.wpforms-container-full .wpforms-form textarea {
     width:60%;
@@ -537,5 +536,6 @@ div.wpforms-container-full
     transition: .5s ease-in-out;
 
 }
+
 
 

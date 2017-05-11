@@ -17,7 +17,7 @@ get_header();
 
 <section class="main animated fadeIn">
 	<div class="row">
-		<div id="about-text" class="col-sm-5">
+		<div id="about-text" class="col-xs-12 col-sm-12 col-md-5 ">
 			<h1>About Me</h1>
 			<p class="subtext"><?php $about_tagline = get_field('about_me_tagline'); 
 				echo $about_tagline;?></p>
@@ -25,7 +25,7 @@ get_header();
 			<?php $about_description = get_field('about_me',false,false); 
 				echo $about_description; ?></p>
 		</div>	
-		<div id="about-img" class="col-sm-7">
+		<div id="about-img" class="col-xs-12 col-sm-12 col-md-7">
 			<img src="<?php $image = get_field('about_me_image'); echo $image['url'];?>" />
 		</div>
 	</div>

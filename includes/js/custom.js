@@ -5,4 +5,8 @@ jQuery( document ).ready(function($) {
 			.find('.projects-overlay')
 				.toggleClass('show');
 		});	
+
+$(".navbar-toggle").on("click", function () {
+		$(this).toggleClass("active");
 	});
+});
