@@ -16,13 +16,14 @@ get_header(); ?>
 	<div class="row">
 		<div id="about-text" class="col-sm-12 col-md-5 col-lg-5">
 			<h1>My Projects</h1>
-			<p class="subtext">To the right you will find projects I have been <br> involved in over the last several years.</p>
+			<p class="subtext">To the right you will find projects I have been involved in over the last several years.</p>
 			<p class="description">These projects have been projects I have worked on while at GSWireless. A telecommunications company located in Banker's Hill San Diego, California </p>
 		</div>
 
 		<div class="projects-right">
 
 <?php
+
 /* 
  * Paginate Advanced Custom Field repeater
  */
@@ -72,7 +73,7 @@ if( have_rows( 'projects' ) ) : ?>
 
   <?php endwhile; ?>
 
-  <div class="pagination col-xs-11 col-sm-11 col-md-11 col-lg-11">
+  <div class="pagination col-xs-11 col-sm-12 col-md-11 col-lg-11">
   <?php
 	  echo paginate_links( array(
 	    'base' => get_permalink() . '%#%' . '/',

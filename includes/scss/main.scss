@@ -129,21 +129,17 @@ header{
 }
 
 .social{
-  list-style: none;
-  display: flex;
-  align-items: center;
-  padding:0;
+  margin:10px 0;
 }
 
 .social li{
   display:inline-block;
 }
 
-.social li a{
-  width:18px;
-  height:18px;
-  display: inline-block;
-  margin-left: 35px;
+.social li a img{
+  width:16px;
+  height:16px;
+  margin-left: 8px;
 }
 
 .site-branding {
@@ -154,10 +150,6 @@ header{
   margin-bottom: 0;
 }
 
-.site-title a img{
-  max-width: 61%;
-}
-
 .lead-container{
   display: flex;
   justify-content: center;
@@ -165,19 +157,10 @@ header{
 
 .lead{
   line-height: 10px;
-  width: 75%;
   font-family: 'latoblack';
   text-transform: uppercase;
   font-size: 10px;
   margin: 0 auto;
-}
-
-
-.navbar-default {
-    // background-color: transparent;
-    border: none;
-    width: 100%;
-    text-align: center;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -194,7 +177,12 @@ header{
 }
 
 .navbar-default {
-    background-color: transparent!important;
+    background-color: #fff;
+    border-color: transparent;
+}
+
+.navbar-right{
+      padding: 10px 0;
 }
 
 .navbar-default .navbar-toggle:hover {
@@ -223,15 +211,15 @@ ul#main-menu{
 
 @media(max-width: 486px){
 
-  .main-content-inner h1 {
-    font-size: 21px!important;
+  .home .main-content-inner h1 {
+    font-size: 19px!important;
   }
   .main-content-inner h2 {
     font-size: 21px!important;
   }
 
   #about-text h1{
-    font-size: 60px!important;
+    font-size: 55px!important;
   }
 
   .description, .subtext {
@@ -240,16 +228,16 @@ ul#main-menu{
 }
 
 @media (min-width: 768px){
-  .navbar-default {
-      background-color: transparent;
-  }
+  // .navbar-default {
+  //     background-color: transparent;
+  // }
   .social{
     // background: red;
-    width: 305px;
+    // width: 305px;
   }
   .collapse.navbar-collapse {
     // background: bisque;
-    width: 305px;
+    // width: 305px;
 }
 
 .desc-outer{
@@ -271,7 +259,7 @@ ul#main-menu{
 }
 
 .home .main-content-inner h1{
-  font-size:33px!important;
+  font-size:33px;
 }
 
 .main-content-inner h3{
@@ -485,11 +473,9 @@ div.wpforms-container-full {
 }
 
 @media screen and (max-width:768px){
-    .main-content-inner h1{
-      font-size: 80px!important;
-    }
+   
     .main-content-inner h2{
-      font-size: 24px!important;
+      font-size: 20px!important;
     }
     span.hilite:nth-child(2){
       line-height:12px!important;
@@ -499,10 +485,10 @@ div.wpforms-container-full {
        display: none;
     }
 
-.social{
-  display:none;
-  padding: 0;
-}
+    .social{
+      display: none;
+    }
+
 .home {
     background: url(../images/portfolio-bg.png) #add8e6;
     background-size: initial;
@@ -537,5 +523,12 @@ div.wpforms-container-full
 
 }
 
+.error-404 .page-title{
+  text-transform: uppercase;
+}
+
+// .nav>li>a>img {
+//     max-width: 7%;
+// }
 
 
