@@ -37,16 +37,20 @@
         </div>
 
 
-          <ul class="social nav navbar-nav col-sm-4 col-md-3 col-lg-3">
-            <li><a href=""><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/05/facebook-letter-logo.svg" /></a></li>
-            <li><a href=""><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/05/linkedin-logo.svg" />
-</a></li>
-            <li><a href=""><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/05/dribbble-logo.svg" />
-</a></li>
-    <li><a href=""><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/05/behance-logo.svg" alt="">
-
-</a></li>
-          </ul>
+        <ul class="social nav navbar-nav col-sm-4 col-md-3 col-lg-3">
+          <li>
+            <a href="https://www.facebook.com/spolido1"><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/05/facebook-letter-logo.svg" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/spolido/"><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/05/linkedin-logo.svg" /></a>
+          </li>
+          <li>
+            <a href=""><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/05/dribbble-logo.svg" /></a>
+          </li>
+          <li>
+            <a href=""><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/05/behance-logo.svg" /></a>
+          </li>
+        </ul>
 
           <div class="site-branding col-sm-3 col-md-5 col-lg-6">
             <h1 class="site-title">

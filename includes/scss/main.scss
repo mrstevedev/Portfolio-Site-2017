@@ -193,7 +193,13 @@ header{
     border-color: transparent!important;
 }
 
-/* Underline Reveal Overwrite */
+.navbar-collapse {
+    // background: bisque;
+    // width: 305px;
+    text-align: center!important;
+}
+
+// Underline Reveal Overwrite //
 .hvr-underline-reveal:before {
   background: #284D62!important;
 }
@@ -235,10 +241,6 @@ ul#main-menu{
     // background: red;
     // width: 305px;
   }
-  .collapse.navbar-collapse {
-    // background: bisque;
-    // width: 305px;
-}
 
 .desc-outer{
   display: flex;
@@ -319,7 +321,6 @@ ul#main-menu{
 .main{
   margin: 100px 0 0 0px;
 }
-
 
 .subtext{
   color: #254a60;
