@@ -35,11 +35,11 @@ get_header(); ?>
 
 			<p class="description">
 				<a target=_"blank" href="<?php $link = get_field('link'); 
-					echo $link; ?>">Launch ProjeCT</a>
+					echo $link; ?>">LAUNCH PROJECT</a>
 			</p>
 
 		</div>
-		<div id="img-main" class="col-7 align-c">		
+		<div id="img-main" class="">		
 			<img src="<?php $image = get_field('project_image'); 
 				echo $image['url'];?>" />
 		</div>

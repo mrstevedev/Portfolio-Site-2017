@@ -28,7 +28,9 @@ get_header(); ?>
 			</p>
 
 		</div>
-		<div id="img-main" class="col-7 align-c"><img class="major preload" src="<?php bloginfo('url')?>/wp-content/uploads/2017/04/project-img-3.png" alt="qantas homepage refresh"></div>
+		<div id="img-main" class="col-7">
+			<img src="<?php $image = get_field('project_image'); echo $image['url']; ?>">
+		</div>
 	</div>
 </section>
 

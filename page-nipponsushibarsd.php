@@ -25,7 +25,7 @@ get_header(); ?>
 			</p>
 
 		</div>
-		<div id="img-main" class="col-7 align-c">		
+		<div id="img-main" class="">		
 			<img src="<?php $image = get_field('project_image'); echo $image['url'];?>" />
 		</div>
 	</div>
