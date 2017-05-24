@@ -21,7 +21,7 @@ get_header(); ?>
 			<p class="description"><span class="subtext">Technologies:</span>
 				<?php $technologies = get_field('technologies'); echo $technologies; ?></p>
 			<p class="description">
-				<a target="_blank" href="<?php $link = get_field('link'); echo $link;?>">LAUNCH PROJECT</a>
+				SITE REMOVED
 			</p>
 
 		</div>
