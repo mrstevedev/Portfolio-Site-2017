@@ -184,3 +184,54 @@ function cc_mime_types($mimes) {
   return $mimes;
 }
 add_filter('upload_mimes', 'cc_mime_types');
+
+
+/* Create Custom Post Type */
+add_action( 'init', 'setup_post_type' );
+function setup_post_type(){
+	register_post_type( 'todo', array(
+		'labels' => array(
+			'name' => __( 'Todo', 'todo' ),
+			'singular_name' => __( 'Todo', 'todo'),
+		),
+		'show_ui' => true,
+		'has_archive' => false,
+		'supports' => array( 'title' ),
+		'show_in_rest' => true,
+		'rest_base' => 'todo',
+		'rest_controller_class' => 'WP_REST_Posts_Controller'
+	));
+}
+
+
+/* Custom API Functionlity */
+add_action( 'rest_api_init', function(){
+	register_rest_route( 'myplugin/v1', '/author/(?P<id>\d+)', array(
+		'methods' => 'GET',
+		'callback' => 'latest_post_by_author',
+		'args' => array(
+			'id' => array(
+				'validate_callback' => function($param, $request, $key){
+					return is_numeric( $param );
+				}
+				)
+			)
+	));
+});
+
+
+function latest_post_by_author( $data ){
+		$posts = get_posts( array(
+			'author' => $data['id'],
+			));
+		if( empty($posts) ){
+			return new WP_Error(
+				'no_author',
+				'Invalid author',
+				array(
+					'status' => 404
+					)
+				);
+		}
+		return $posts[0]->post_title;
+}

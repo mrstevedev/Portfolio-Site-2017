@@ -234,13 +234,13 @@ ul#main-menu{
 }
 
 @media (min-width: 768px){
-  // .navbar-default {
-  //     background-color: transparent;
-  // }
-  .social{
-    // background: red;
-    // width: 305px;
-  }
+  .navbar-default {
+height: 60px;
+}
+
+ .site-title img{
+  max-width: 70%;
+}
 
 .desc-outer{
   display: flex;
@@ -357,7 +357,7 @@ ul#main-menu{
 .entry-content p{
   font-family: 'latoblack';
   font-size: 23px;
-  text-align: left;
+  text-align: left; 
 }
 
 .thumbs img {
