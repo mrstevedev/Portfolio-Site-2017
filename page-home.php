@@ -40,7 +40,7 @@ get_header(); ?>
 		
 		<h3 class="animated fadeInDown">Download My Resume</h3>
 		
-		<a target="_blank" class="animated fadeIn hvr-icon-sink-away" href="<?php bloginfo('url')?>/wp-content/uploads/2017/04/Pulido_Steven_Resume__April__2017.pdf"></a>
+		<a target="_blank" class="animated fadeIn hvr-icon-sink-away" href="<?php bloginfo('url')?>/wp-content/uploads/2017/06/Pulido_Steven_Resume___June_2017.pdf"></a>
 		
 	</div>
 </div>
