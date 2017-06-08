@@ -39,10 +39,10 @@
 
         <ul class="social nav navbar-nav col-sm-4 col-md-3 col-lg-3">
           <li>
-            <a href="https://www.facebook.com/spolido1"><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/06/facebook-letter-logo.svg" /></a>
+            <a target="_blank" href="https://www.facebook.com/spolido1"><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/06/facebook-letter-logo.svg" /></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/spolido/"><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/06/linkedin-logo.svg" /></a>
+            <a target="_blank" href="https://www.linkedin.com/in/spolido/"><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/06/linkedin-logo.svg" /></a>
           </li>
           <li>
             <a href=""><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/06/dribbble-logo.svg" /></a>
