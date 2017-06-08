@@ -25,7 +25,7 @@
 	<?php do_action( 'before' ); ?>
 
 
-	<nav class="navbar navbar-default navbar-static-top">
+	<nav class="navbar navbar-default navbar-static-top animated fadeIn">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
