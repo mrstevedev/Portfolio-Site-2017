@@ -12,7 +12,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta property="og:image" content="https://www.stevenpulido.com/wp-content/uploads/2017/06/facebook_screen.png">
+	<meta property="og:image" content="https://www.stevenpulido.com/wp-content/uploads/2017/06/facebook_img.png">
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -35,7 +35,6 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-
 
         <ul class="social nav navbar-nav col-sm-4 col-md-3 col-lg-3">
           <li>
