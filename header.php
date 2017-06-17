@@ -24,7 +24,6 @@
 <body <?php body_class(); ?>>
 	<?php do_action( 'before' ); ?>
 
-
 	<nav class="navbar navbar-default navbar-static-top animated fadeIn">
       <div class="container">
         <div class="navbar-header">
