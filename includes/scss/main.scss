@@ -231,7 +231,7 @@ ul#main-menu{
 
 @media (min-width: 768px){
   .navbar-default {
-height: 55px;
+    height: 55px;
 }
 
  .site-title img{
@@ -488,7 +488,7 @@ div.wpforms-container-full {
     }
 
 .home {
-    background: url(../images/portfolio-bg.png) #add8e6;
+    background: url(../images/portfolio-bg.png) #add8e6 -692px 0;
     background-size: initial;
   }
 }
