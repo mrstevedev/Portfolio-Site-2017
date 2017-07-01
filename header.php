@@ -13,8 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta property="og:image" content="https://www.stevenpulido.com/wp-content/uploads/2017/06/facebook_img.png">
-  <meta name="description" content="I am a Front-End Web Developer residing in beautiful San Diego California.
-    I specialize in Front-End Development using the lastest & greatest tools. I bring elegant & modern designs to life.">
+  <meta name="description" content="San Diego Web Developer. Need a presence? I am an expert designer and developer. I am an expert in Wordpress, and using various languanges and tools to bring a modern and elegant design to life.">
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
