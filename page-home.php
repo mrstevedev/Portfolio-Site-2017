@@ -31,6 +31,7 @@ get_header(); ?>
 				<li>HTML5</li>
 				<li>CSS3</li>
 				<li>Javascript</li>
+				<li>PHP</li>
 				<li>Performance</li>
 				<li>Wordpress</li>
 			 </ul>
