@@ -26,7 +26,7 @@ get_header();
 				echo $about_description; ?></p>
 		</div>	
 		<div id="about-img" class="col-xs-12 col-sm-12 col-md-7">
-			<img src="<?php $image = get_field('about_me_image'); echo $image['url'];?>" />
+			<img src="<?php $image = get_field('about_me_image'); echo $image['url'];?>" alt="About Steven Pulido | San Diego Web Developer" />
 		</div>
 	</div>
 </section>

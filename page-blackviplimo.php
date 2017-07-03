@@ -29,7 +29,7 @@ get_header(); ?>
 
 		</div>
 		<div id="img-main" class="col-7">
-			<img src="<?php $image = get_field('project_image'); echo $image['url']; ?>">
+			<img src="<?php $image = get_field('project_image'); echo $image['url']; ?>" alt="Steven Pulido | San Diego Web Developer">
 		</div>
 	</div>
 </section>

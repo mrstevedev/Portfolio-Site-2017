@@ -13,7 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta property="og:image" content="https://www.stevenpulido.com/wp-content/uploads/2017/06/facebook_img.png">
-  <meta name="description" content="San Diego Web Developer. Need a presence? I am an expert designer and developer. I am an expert in Wordpress, and using various languanges and tools to bring a modern and elegant design to life.">
+  <meta name="description" content="San Diego Web Design, Web Development, User Interface Design, & Wordpress Development. Need a website presence? I am an expert designer and developer. I am an expert in Wordpress, and using various languanges and tools to bring a modern and elegant design to life.">
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -43,10 +43,10 @@
             <a target="_blank" href="https://www.linkedin.com/in/spolido/"><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/06/linkedin-logo.svg" /></a>
           </li>
           <li>
-            <a href=""><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/06/dribbble-logo.svg" /></a>
+            <a href="#"><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/06/dribbble-logo.svg" /></a>
             </li>
           <li>
-            <a href=""><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/06/behance-logo.svg" /></a>
+            <a href="#"><img src="<?php bloginfo('url')?>/wp-content/uploads/2017/06/behance-logo.svg" alt="Steven Pulido | San Diego Front-End Web Developer" /></a>
           </li>
         </ul>
 
