@@ -21,11 +21,8 @@
 
 				<div class="site-info">
 
-					&copy; 2017 Steven Pulido
-					<!-- <?php do_action( '_tk_credits' ); ?> -->
-					<!-- <a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', '_tk' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', '_tk' ), 'WordPress' ); ?></a> -->
-					<!-- <span class="sep"> | </span> -->
-                    <!-- <a class="credits" href="http://themekraft.com/" target="_blank" title="Themes and Plugins developed by Themekraft" alt="Themes and Plugins developed by Themekraft"><?php _e('Themes and Plugins developed by Themekraft.','_tk') ?> </a> -->
+					<p>&copy; 2017 Steven Pulido</p>
+				
 				</div><!-- close .site-info -->
 
 			</div>

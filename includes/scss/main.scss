@@ -190,10 +190,11 @@ header{
 }
 
 .navbar-collapse {
-    // background: bisque;
-    // width: 305px;
+    border: none!important; 
     text-align: center!important;
 }
+
+
 
 // Underline Reveal Overwrite //
 .hvr-underline-reveal:before {
@@ -227,6 +228,13 @@ ul#main-menu{
   .description, .subtext {
     font-size: 18px;
   }
+
+  .main {
+    display: initial!important;
+    justify-content: initial!important;
+    /* align-items: center; */
+    height: auto!important; 
+}
 }
 
 @media (min-width: 768px){
@@ -278,22 +286,6 @@ ul#main-menu{
 .desc-middle ul li:after{ content: " \00b7"; }
 .desc-middle li:last-child:after{
   content:"";
-}
-
-.page-template-page-gswireless
-.main-content,
-.page-template-page-nipponsushibarsd
-.main-content,
-.page-template-page-blackviplimo
-.main-content,
-.page-template-page-mygsphone
-.main-content{
-  // border-bottom: solid 1px #d9e2e7;
-}
-
-.page-child .main-content .container, 
-.page-child .main-content .main-content-inner{
-  padding:0
 }
 
 .page-template-page-nipponsushibarsd #about-text h1{
@@ -360,6 +352,7 @@ ul#main-menu{
 }
 
 .thumbs img {
+  width: 100%;
   border: solid 5px #fff;
   box-shadow: 0 3px 7px #e4e4e4;
 }
