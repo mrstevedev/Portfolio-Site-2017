@@ -14,7 +14,7 @@ get_header(); ?>
 
 <section class="main animated fadeIn">
 	<div class="row">
-		<div id="about-text" class="col-sm-12 col-md-5 col-lg-5">
+		<div id="about-text" class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
 			<h1>My Projects</h1>
 			<p class="subtext">To the right you will find projects I have been involved in over the last several years.</p>
 			<p class="description">These projects have been projects I have worked on while at GSWireless. A telecommunications company located in Banker's Hill San Diego, California </p>

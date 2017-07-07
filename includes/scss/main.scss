@@ -228,13 +228,6 @@ ul#main-menu{
   .description, .subtext {
     font-size: 18px;
   }
-
-  .main {
-    display: initial!important;
-    justify-content: initial!important;
-    /* align-items: center; */
-    height: auto!important; 
-}
 }
 
 @media (min-width: 768px){
@@ -467,6 +460,13 @@ div.wpforms-container-full {
 }
 
 @media screen and (max-width:768px){
+
+    .main {
+    display: initial!important;
+    justify-content: initial!important;
+    /* align-items: center; */
+    height: auto!important; 
+}
    
     .main-content-inner h2{
       font-size: 20px!important;
