@@ -19,7 +19,7 @@ get_header(); ?>
 	<div class="desc-top">
 		<h1 class="animated fadeIn">I am a passionate <strong><span class="hilite">Front-End Web Developer</span></strong> residing in beautiful <strong><span class="hilite">San Diego California</span></strong>.<br>
 	
-		<span class="specialize-desc">I specialize in <a href="https://skillcrush.com/2016/02/11/skills-to-become-a-front-end-developer/" class="hilite" target="_blank"><span>Front-End Dev</span></a> using the <strong><span class="hilite">lastest</span></strong><span class="ampersand"> &</span> <strong><span class="hilite"> greatest</span></strong> tools.</span></h1>
+		<span class="specialize-desc">I specialize in <a href="https://frontendmasters.com/books/front-end-handbook/2017/what-is-a-FD.html" class="hilite" target="_blank"><span>Front-End Dev</span></a> using the <strong><span class="hilite">lastest</span></strong><span class="ampersand"> &</span> <strong><span class="hilite"> greatest</span></strong> tools.</span></h1>
 		<h2 class="animated fadeIn">I bring <span class="hilite">elegant</span> <span class="ampersand">&</span> <span class="hilite">modern</span> designs to life.</h2>
 	</div>
 
