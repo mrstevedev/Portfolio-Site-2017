@@ -236,19 +236,19 @@ function latest_post_by_author( $data ){
 		return $posts[0]->post_title;
 }
 
-add_action( 'current_screen', 'hide_plugins_screen' );
+// add_action( 'current_screen', 'hide_plugins_screen' );
 
-function hide_plugins_screen() {
+// function hide_plugins_screen() {
 
-    $current_screen = get_current_screen();
+//     $current_screen = get_current_screen();
 
-    // var_dump($current_screen);
+//     // var_dump($current_screen);
 
-    if( $current_screen ->id == "plugins" && !is_admin() ) {
+//     if( $current_screen ->id == "plugins" && !is_admin() ) {
 
-    	exit('sorry you are not authorized to view this page. <a href="/wp-admin">Go back</a>');
+//     	exit('sorry you are not authorized to view this page. <a href="/wp-admin">Go back</a>');
 
-    }
+//     }
     
-}
+// }
 

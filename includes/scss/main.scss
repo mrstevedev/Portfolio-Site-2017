@@ -138,8 +138,9 @@ header{
   margin-left: 8px;
 }
 
-.site-branding {
-    text-align: center;
+.site-brand {
+  display: flex;
+  justify-content: center;
 }
 .site-title{
   margin: 0;
@@ -175,6 +176,7 @@ header{
 .navbar-default {
     background-color: #fff;
     border-color: transparent;
+    border-radius: 0;
 }
 
 .navbar-right{
@@ -228,15 +230,20 @@ ul#main-menu{
   .description, .subtext {
     font-size: 18px;
   }
+
+  .site-brand{
+    display: none;
+  }
 }
 
 @media (min-width: 768px){
   .navbar-default {
-    height: 55px;
+    height: 56px;
 }
 
- .site-title img{
-  max-width: 34%;
+.navbar-brand img{
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .desc-outer{
@@ -520,9 +527,32 @@ div.wpforms-container-full
 .error-404 .page-title{
   text-transform: uppercase;
 }
+.error-404{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+a svg{
+    transition: .2s;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: .2s;
+    -webkit-transition-timing-function: ease-in-out;
+}
 
-// .nav>li>a>img {
-//     max-width: 7%;
-// }
+a svg:hover{
+  fill: #254a60;
+}
 
+.page-template-page-changebgapp-php #about-text h1 {
+    font-size: 41px;
+}
+.page-template-page-changebgapp-php .react-app {
+  max-width: 55%;
+}
+
+.navbar-brand {
+    padding: 7px 15px;
+}
 
