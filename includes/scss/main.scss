@@ -102,6 +102,19 @@ $font-size: 13px;
     font-style: normal;
 }
 
+@font-face {
+  font-family: 'rochester';
+  src: url('../fonts/rochester-regular-webfont.eot');
+  src: url('../fonts/rochester-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/rochester-regular-webfont.woff2') format('woff2'),
+       url('../fonts/rochester-regular-webfont.woff') format('woff'),
+       url('../fonts/rochester-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 body {
   font-size:$font-size;
   font-family: 'latoregular';
@@ -436,6 +449,10 @@ span.page-numbers.current {
   font-family: 'great_vibesregular';
 }
 
+.ampersand-experience{
+  font-family: 'rochester';
+}
+
 ::selection {
     background: #254a60;
     color: #fff;
@@ -555,4 +572,106 @@ a svg:hover{
 .navbar-brand {
     padding: 7px 15px;
 }
+
+.page-template-page-experience{
+  background: url('/wp-content/uploads/2017/10/pexels-photo-238118.jpeg') no-repeat;
+  background-size: cover;
+}
+
+.page-template-page-experience  .navbar-default{
+  background: transparent;
+}
+
+.page-template-page-experience 
+.main-content-inner h3{ margin-top: 0px; font-size: 32px;
+  text-transform: initial; }
+
+.form-reviews-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:585px;
+}
+
+.form-reviews{
+  background: rgba(255,255,255,0.59);
+  padding:45px;
+  width: 60%;
+  border-radius: 6px;
+  height: 450px;
+  box-shadow: 0 1px 1px #ccc;  
+}
+
+@media(max-width:415px){
+  .form-reviews{
+    width:initial;
+    height: auto;
+  }
+}
+
+#wpforms-form-307{
+  position: relative;
+}
+
+div.wpforms-container-full .wpforms-form label.wpforms-error {
+  position: absolute;
+  right:15px;
+  text-transform: uppercase;
+  font-size:10px!important;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+  display: none!important;
+}
+
+.wpforms-field-medium{
+  font-size:10px!important;
+  border:none!important;
+}
+
+div.wpforms-container-full .wpforms-form input.wpforms-field-medium{
+  max-width: 100%!important;
+}
+
+#wpforms-307-field_0-error{bottom:10px;}
+div.wpforms-container-full .wpforms-form button[type=submit] {
+  width: 100%;
+  border:none!important;
+  border-radius: 3px;
+  background:#337AB7!important;
+  color:#FFF!important;
+}
+
+#wpforms-307-field_0-error {
+  top: 24px;
+}
+
+label#wpforms-307-field_2-error {
+  top: 75px;
+}
+
+.form-reviews p:nth-child(2){
+  font-family: 'latoblack';
+  font-size:16px;
+}
+
+.form-reviews p:nth-child(2):after{
+  content:"";
+  border: solid 1px #337AB7;
+  display: block;
+  width:6%;
+  margin:6px auto;
+}
+
+.form-reviews p:nth-child(3){
+  font-family: 'latoblack';
+  font-size:18px;
+}
+
+div.wpforms-container-full .wpforms-form label.wpforms-error{
+  color:#FF3E3E!important;
+  font-family: 'latoblack';  
+}
+
+
 

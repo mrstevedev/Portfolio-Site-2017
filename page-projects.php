@@ -46,7 +46,6 @@ $max              = ( $min + $images_per_page ) - 1;
 // ACF Loop
 if( have_rows( 'projects' ) ) : ?>
 
-
   <?php while( have_rows( 'projects' ) ): the_row();
 
     $row++;

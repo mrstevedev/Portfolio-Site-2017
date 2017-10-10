@@ -6,7 +6,7 @@
  * Please note that this is the WordPress construct of pages
  * and that other 'pages' on your WordPress site will use a
  * different template.
- *Template Name: Change BG App
+ * Template Name: Change BG App
  * @package _tk
  */
 
