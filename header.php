@@ -109,7 +109,7 @@
 
           <div class="site-brand col-sm-3 col-md-4 col-lg-4">
             <a class="navbar-brand" href="/home">
-              <img src="<?php bloginfo('url')?>/wp-content/uploads/2017/06/logo.svg">
+              <img src="<?php bloginfo('url')?>/wp-content/uploads/2018/11/logo.svg">
               <p class="site-description lead">Front-End Web Developer / Wordpress Developer</p>
             </a>
           </div>
